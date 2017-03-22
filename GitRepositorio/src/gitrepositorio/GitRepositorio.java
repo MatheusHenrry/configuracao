@@ -44,7 +44,11 @@ public class GitRepositorio {
             soma+=vetor[j]; 
         }
         
-       
+        if(soma<=1000){
+            for (int j = 0; j < vetor.length; j++) {
+                System.out.println(vetor[j]); 
+            }
+        }
         
     }
     
